@@ -17,6 +17,23 @@ namespace Hotel
                 var floorNumber = Int32.Parse(Console.ReadLine());
                 if (floorNumber <= 5 && roomType == 1){
                     Console.WriteLine("Chose room # from 1 - 5 Cost is 45.00");
+                    var costRoom = 45.00;
+                    //Asks user how many nights they will be staying
+                    Console.WriteLine("How nights will you be staying?");
+                    var numNights = Int32.Parse(Console.ReadLine());
+                    var totalCost = numNights * costRoom;
+                    //Calculate total based on the nights staying
+                    //  if user stayes more than 4 nights, give a 10% off
+                    if(numNights >= 4){
+                        totalCost = (numNights * costRoom) - ((numNights * costRoom * 10)/100);
+                        
+                         Console.WriteLine("The total of your stay is " + totalCost);
+                    //if user stays less than 4 nights give regular rate
+                    }else {
+                        totalCost = numNights * costRoom;
+                         Console.WriteLine("The total of your stay is " + totalCost);
+                    }
+        
                 }else if (floorNumber == 12) {
                     Console.WriteLine("We are sorry, a single bedroom is not available in this floor");
                 }else if (floorNumber >= 6 && floorNumber <= 11) {
@@ -24,6 +41,7 @@ namespace Hotel
                 }else {
                     Console.WriteLine("sorry we dont have that option");
                 }
+
         //Conditions if the user selects double room
             }else if (roomType == 2) {
                 Console.WriteLine("you chose 2");
