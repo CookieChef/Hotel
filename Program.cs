@@ -35,6 +35,8 @@ namespace Hotel
                         Console.WriteLine("For a single bedroom at $" + costRoom + " per night, for " + numNights + " nights and a %10 discount: ");
                         Console.WriteLine("The total of your stay is $" + totalCost);
                         //if user stays less than 4 nights give regular rate
+                    }else if (numNights <0) {
+                        Console.WriteLine("Sorry, there was an error with your request");
                     }
                     else
                     {
@@ -65,6 +67,8 @@ namespace Hotel
                         Console.WriteLine("For a single bedroom at $" + costRoom + " per night, for " + numNights + " nights and a %10 discount: ");
                         Console.WriteLine("The total of your stay is $" + totalCost);
                         //if user stays less than 4 nights give regular rate
+                    }else if (numNights <0) {
+                        Console.WriteLine("Sorry, there was an error with your request");
                     }
                     else
                     {
@@ -102,6 +106,8 @@ namespace Hotel
                         Console.WriteLine("For a double bedroom at $" + costRoom + " per night, for " + numNights + " nights and a %10 discount: ");
                         Console.WriteLine("The total of your stay is $" + totalCost);
                         //if user stays less than 4 nights give regular rate
+                    }else if (numNights <0) {
+                        Console.WriteLine("Sorry, there was an error with your request");
                     }
                     else
                     {
@@ -126,6 +132,8 @@ namespace Hotel
                         Console.WriteLine("For a double bedroom at $" + costRoom + " per night, for " + numNights + " nights and a %10 discount: ");
                         Console.WriteLine("The total of your stay is $" + totalCost);
                         //if user stays less than 4 nights give regular rate
+                    }else if (numNights <0) {
+                        Console.WriteLine("Sorry, there was an error with your request");
                     }
                     else
                     {
@@ -150,6 +158,8 @@ namespace Hotel
                         Console.WriteLine("For a double bedroom at $" + costRoom + " per night, for " + numNights + " nights and a %10 discount: ");
                         Console.WriteLine("The total of your stay is $" + totalCost);
                         //if user stays less than 4 nights give regular rate
+                    }else if (numNights <0) {
+                        Console.WriteLine("Sorry, there was an error with your request");
                     }
                     else
                     {
@@ -185,6 +195,8 @@ namespace Hotel
                         Console.WriteLine("For a suite bedroom at $" + costRoom + " per night, for " + numNights + " nights and a %10 discount: ");
                         Console.WriteLine("The total of your stay is $" + totalCost);
                         //if user stays less than 4 nights give regular rate
+                    }else if (numNights <0) {
+                        Console.WriteLine("Sorry, there was an error with your request");
                     }
                     else
                     {
@@ -209,6 +221,8 @@ namespace Hotel
                         Console.WriteLine("For a suite bedroom at $" + costRoom + " per night, for " + numNights + " nights and a %10 discount: ");
                         Console.WriteLine("The total of your stay is $" + totalCost);
                         //if user stays less than 4 nights give regular rate
+                    }else if (numNights <0) {
+                        Console.WriteLine("Sorry, there was an error with your request");
                     }
                     else
                     {
@@ -233,6 +247,8 @@ namespace Hotel
                         Console.WriteLine("For a suite bedroom at $" + costRoom + " per night, for " + numNights + " nights and a %10 discount: ");
                         Console.WriteLine("The total of your stay is $" + totalCost);
                         //if user stays less than 4 nights give regular rate
+                    }else if (numNights <0) {
+                        Console.WriteLine("Sorry, there was an error with your request");
                     }
                     else
                     {
